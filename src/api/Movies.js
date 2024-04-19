@@ -1,5 +1,5 @@
 const API_URL = 'https://api.themoviedb.org/3';
-const API_KEY = 'b822441b5788e5af34364bd716eab043';
+const API_KEY = '6b59f826449f6a6ef7babbc8e0785641';
 
 const basicFetch = async (endpoint) => {
     const req = await fetch(`${API_URL}/${endpoint}`);
